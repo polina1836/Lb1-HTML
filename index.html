@@ -6,40 +6,49 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-div{
+div{  
   margin: 10px;
   border: 1px solid black;
   font-size: 20px;
   height: 80px;
+  padding: 11px;
   text-align: center;
 }
+
 #header{
   background-color: #ccc;
   font-family:'Times New Roman', Times, serif;
   font-size: 30px;
   color:  #864313;
+  background-color: #e4c9a6;
   text-shadow: 1px 1px 2px pink;
 }
 #sidebar{
   background-color: #ddd;
+  padding: 11px;
   float: left;
-  width: 150px;
-  height: 180px;
+  width: 130px;
+  height: 300px;
 }
 #main{
   background-color: #eee;
-  height: 200px;
+  height: 450px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
   margin-left: 170px;
+  background-color: #864313;
 }
 #footer{
-  background-color: #ccc;
+  background-color: #e4c9a6;
+  height: 300px;
+  padding-left: 300px;
 }
 </style>
     </head>
     <body>
       <div id="header">Лабораторна робота № 1</div>
         <div id="sidebar">
-          <h3>Першим захищає лабораторну</h3>
+          <h3>Першим захищає лабораторну роботу</h3>
             <select name="Students" id="students">
               <option value="Носова">Носова П.</option>
               <option value="Потьомкіна">Потьомкіна К</option>
@@ -48,7 +57,44 @@ div{
             </select>
           </label>
         </div>
-        <div id="main">Main content</div>
-        <div id="footer">Footer</div>
-    </body>
+      <div id="main">
+        <p>
+          <B><I>E=mc<sup>2</sup></I></B>, where <B>E</B> - energy of the object,<br><B>m</B> - it`s mass,
+           <B>c</B> - speed of light in<br> vacuum, equals to 299 792 458 <I>m/s</I>
+        </p>
+        <img
+          src="https://damion.club/uploads/posts/2022-09/1663874217_1-damion-club-p-albert-einshtein-risunok-vkontakte-2.jpg"
+          width="350" height="250" style="vertical-align:bottom; margin-top:5px;">
+        </div>
+
+        <div id="footer">
+      
+          <table border="1">
+            <thead>
+              <tr>
+                <th><h3>Книга</h3></th>
+                 <th><h3>Автор</h3></th>
+                 <th><h3>Розділ</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><I>Еволюція фізичного <br>погляду</I></td>
+                <td>Альберт Ейнштейн</td>
+                <td>Розквіт механічного погляду</td>
+              </tr>
+              <tr>
+                <td><I>Коротка історія <br>часу</I></td>
+                <td>Стівен Гокінґ</td>
+                <td>Фізичні теорії паралельних всесвітів</td>
+              </tr>
+              <tr>
+                <td><I>Структура реальності: <br>Наука паралельних всесвітів</I></td>
+                <td>Девід Дойч</td>
+                <td>Альтернативні теорії реальності</td>        
+              </tr>
+              </tbody>
+              </table>
+              </div>
+        </body>
 </html>
